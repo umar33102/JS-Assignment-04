@@ -1,0 +1,25 @@
+header,#Original-border,footer{
+    background-color: #1d3557;
+    color: white !important;
+}
+
+
+
+#output-border{
+    min-height: 265px;
+}
+
+#btn button {
+    min-width:47%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    #btn button {
+        min-width: 97%;
+    }
+}
+@media only screen and (max-width: 567px) {
+    #btn button {
+        min-width: 97%;
+    }
+}
